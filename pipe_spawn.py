@@ -16,7 +16,7 @@ def add_model_to_Gazebo(model_name, model_path, pose):
 rospy.init_node('model_loader', anonymous=True)
 
 model_name0 = 'main_pipe'
-model_path0 = '/home/clover/model_editor_models/pipe_alfa_version_26/model.sdf' #########path
+model_path0 = '/home/clover/vovchik_lovit_2k26/pipe_models/pipe_alfa_version_26/model.sdf' #########path
 pose0 = Pose()
 pose0.position.x = 3.38
 pose0.position.y = 3.72
@@ -93,8 +93,8 @@ while ((x1 - x5) ** 2 + (y1 - y5) ** 2 < 0.75 ** 2) or ((x2 - x5) ** 2 + (y2 - y
         y5 = x5
 
 
-model_path_45 = '/home/clover/model_editor_models/secondary_pipe_26/model.sdf' ##############path
-model_path_70 = '/home/clover/model_editor_models/third_pipe/model.sdf'
+model_path_45 = '/home/clover/vovchik_lovit_2k26/pipe_models/secondary_pipe_26/model.sdf' ##############path
+model_path_70 = '/home/clover/vovchik_lovit_2k26/pipe_models/third_pipe/model.sdf'
 
 pose1 = Pose()
 pose1.position.z = 0
