@@ -18,8 +18,8 @@ rospy.init_node('model_loader', anonymous=True)
 model_name0 = 'main_pipe'
 model_path0 = '/home/clover/vovchik_lovit_2k26/pipe_models/pipe_alfa_version_26/model.sdf' #########path
 pose0 = Pose()
-pose0.position.x = 3.38
-pose0.position.y = 3.72
+pose0.position.x = 3.237962
+pose0.position.y = 3.877562
 pose0.position.z = 0
 pose0.orientation.w = 1
 
