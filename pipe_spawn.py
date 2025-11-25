@@ -100,12 +100,12 @@ pose1 = Pose()
 pose1.position.z = 0
 pose1.orientation.w = 1
 if 1 <= x1 <= 1 + 2*(2**0.5):
-    pose1.position.x = x1 - 1/2/(2**0.5)
-    pose1.position.y = y1 + 1/2/(2**0.5)
+    pose1.position.x = x1 - 1/2/(2**0.5) + 0.1
+    pose1.position.y = y1 + 1/2/(2**0.5) + 0.2
     add_model_to_Gazebo('secondary_pipe_1', model_path_45, pose1)
 else:
-    pose1.position.x = x1 - 0.5 * 0.93969
-    pose1.position.y = y1 + 0.5 * 0.34202
+    pose1.position.x = x1 - 0.5 * 0.93969 + 0.1
+    pose1.position.y = y1 + 0.5 * 0.34202 + 0.2
     add_model_to_Gazebo('secondary_pipe_1', model_path_70, pose1)
 
 
@@ -114,12 +114,12 @@ pose2 = Pose()
 pose1.position.z = 0
 pose1.orientation.w = 1
 if 1 <= x2 <= 1 + 2*(2**0.5):
-    pose2.position.x = x2 - 1/2/(2**0.5)
-    pose2.position.y = y2 + 1/2/(2**0.5)
+    pose2.position.x = x2 - 1/2/(2**0.5) + 0.1
+    pose2.position.y = y2 + 1/2/(2**0.5) + 0.2
     add_model_to_Gazebo('secondary_pipe_2', model_path_45, pose2)
 else:
-    pose2.position.x = x2 - 0.5 * 0.93969
-    pose2.position.y = y2 + 0.5 * 0.34202
+    pose2.position.x = x2 - 0.5 * 0.93969 + 0.1
+    pose2.position.y = y2 + 0.5 * 0.34202 + 0.2
     add_model_to_Gazebo('secondary_pipe_2', model_path_70, pose2)
 
 
@@ -127,12 +127,12 @@ pose3 = Pose()
 pose3.position.z = 0
 pose3.orientation.w = 1
 if 1 <= x3 <= 1 + 2*(2**0.5):
-    pose3.position.x = x3 - 1/2/(2**0.5)
-    pose3.position.y = y3 + 1/2/(2**0.5)
+    pose3.position.x = x3 - 1/2/(2**0.5) + 0.1
+    pose3.position.y = y3 + 1/2/(2**0.5) + 0.2
     add_model_to_Gazebo('secondary_pipe_3', model_path_45, pose3)
 else:
-    pose3.position.x = x3 - 0.5 * 0.93969
-    pose3.position.y = y3 + 0.5 * 0.34202
+    pose3.position.x = x3 - 0.5 * 0.93969 + 0.1
+    pose3.position.y = y3 + 0.5 * 0.34202 + 0.2
     add_model_to_Gazebo('secondary_pipe_3', model_path_70, pose3)
 
 
@@ -140,12 +140,12 @@ pose4 = Pose()
 pose4.position.z = 0
 pose4.orientation.w = 1
 if 1 <= x4 <= 1 + 2*(2**0.5):
-    pose4.position.x = x4 - 1/2/(2**0.5)
-    pose4.position.y = y4 + 1/2/(2**0.5)
+    pose4.position.x = x4 - 1/2/(2**0.5) + 0.1
+    pose4.position.y = y4 + 1/2/(2**0.5) + 0.2
     add_model_to_Gazebo('secondary_pipe_4', model_path_45, pose4)
 else:
-    pose4.position.x = x4 - 0.5 * 0.93969
-    pose4.position.y = y4 + 0.5 * 0.34202
+    pose4.position.x = x4 - 0.5 * 0.93969 + 0.1
+    pose4.position.y = y4 + 0.5 * 0.34202 + 0.2
     add_model_to_Gazebo('secondary_pipe_4', model_path_70, pose4)
 
 
@@ -154,10 +154,10 @@ pose5 = Pose()
 pose5.position.z = 0
 pose5.orientation.w = 1
 if 1 <= x5 <= 1 + 2*(2**0.5):
-    pose5.position.x = x5 - 1/2/(2**0.5)
-    pose5.position.y = y5 + 1/2/(2**0.5)
+    pose5.position.x = x5 - 1/2/(2**0.5) + 0.1
+    pose5.position.y = y5 + 1/2/(2**0.5) + 0.2
     add_model_to_Gazebo('secondary_pipe_5', model_path_45, pose5)
 else:
-    pose5.position.x = x5 - 0.5 * 0.93969
-    pose5.position.y = y5 + 0.5 * 0.34202
+    pose5.position.x = x5 - 0.5 * 0.93969 + 0.1
+    pose5.position.y = y5 + 0.5 * 0.34202 + 0.2
     add_model_to_Gazebo('secondary_pipe_5', model_path_70, pose5)
