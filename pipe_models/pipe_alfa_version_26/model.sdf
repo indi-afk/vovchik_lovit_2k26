@@ -3,7 +3,7 @@
   <model name='pipe_alfa_version_26'>
     <link name='link_0'>
       <inertial>
-        <mass>1</mass>
+        <mass>0</mass>
         <inertia>
           <ixx>0.145833</ixx>
           <ixy>0</ixy>
