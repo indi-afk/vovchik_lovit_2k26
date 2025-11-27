@@ -50,8 +50,8 @@
         <pose>0 0 0.1 1.5708 -0 2.35619</pose>
         <geometry>
           <cylinder>
-            <radius>0.1</radius>
-            <length>4</length>
+            <radius>0.0000001</radius>
+            <length>0.00000001</length>
           </cylinder>
         </geometry>
         <surface>
