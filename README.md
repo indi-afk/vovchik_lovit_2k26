@@ -10,3 +10,5 @@ COEX CLOVER one love
 5. Запустить программу pipe_spawn.py. Это можно сделать с помощью команды python3.
 6. Дождавшись, когда появилась труба и врезки, запустить программу flying.py
 7. Топик /tubes имеет формат: '' data: x y; x y; x y; x y; x y;  '' 
+
+Ссылка на видео на яндекс диске: https://disk.yandex.ru/i/Mi9Qkf1mYYpV9Q
